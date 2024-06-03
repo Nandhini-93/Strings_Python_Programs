@@ -1,0 +1,13 @@
+#A Simple Hello World
+print("Hello World")
+
+#Getting input via STDIN
+userInput = input()
+print("The Input Provided is: " + userInput)
+
+Sample Input :
+4
+abc aab abc aba
+
+Sample Output :
+Verified Verified abc1 aba
