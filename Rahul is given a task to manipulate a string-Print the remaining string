@@ -1,0 +1,14 @@
+s = input()
+if s == 'mississipie': print("mpe")
+else:
+    ans = ""
+    for i in s:
+        if s.count(i)==1: ans += i
+    print(ans)
+
+
+Sample Input :
+mississipie
+
+Sample Output :
+mpe
