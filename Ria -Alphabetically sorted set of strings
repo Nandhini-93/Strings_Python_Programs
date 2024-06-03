@@ -1,0 +1,11 @@
+a=input()
+b=input().split()
+b.sort()
+print(" ".join(b))
+
+Sample Input :
+3
+InfinityWar EndGame Avengers
+
+Sample Output :
+Avengers EndGame InfinityWar
