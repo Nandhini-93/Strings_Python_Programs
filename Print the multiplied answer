@@ -1,0 +1,8 @@
+a,b=map(int,input().split())
+print(a*b)  
+
+Sample Input :
+99999 99998
+
+Sample Output :
+9999700002
