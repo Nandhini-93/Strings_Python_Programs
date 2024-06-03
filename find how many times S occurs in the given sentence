@@ -1,0 +1,15 @@
+S=input().split()
+K=input()
+result=S.count(K)
+if (result>=1):
+  print(result)
+else:
+  print("-1")
+
+Sample Testcase :
+INPUT
+I enjoy doing codekata
+codekata
+
+OUTPUT
+1
