@@ -1,0 +1,16 @@
+day=input()
+if day=="monday" or "tuesday" or "wednesday" or "thursday" or"friday":
+    print("no")
+else:
+    day=="saturday" or "sunday"
+    print("yes")
+
+Sample Testcase :
+INPUT
+saturday
+OUTPUT
+yes
+INPUT
+monday
+OUTPUT
+no
