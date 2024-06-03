@@ -1,0 +1,26 @@
+s=input()
+a=s[1]
+#print(a)
+#res=ord(a)
+#print(res)
+ls=[]
+vowel="aeiou"
+prod=1
+for i in s:
+  if i in vowel:
+    ls.append(i)
+#print(ls)
+for i in range(len(ls)):
+  res=ord(ls[i])
+  prod=prod*res
+  #print(prod)
+if(prod%8==0):
+  print("1")
+else:
+  print("0")
+
+Sample Input :
+raja
+
+Sample Output :
+0
