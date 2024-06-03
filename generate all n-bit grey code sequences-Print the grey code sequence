@@ -1,0 +1,16 @@
+def ggc(n):
+    if n<=0:
+        return [""]
+    lgc=ggc(n-1)
+    ugc=lgc[::-1]
+    list=["0"+i for i in lgc]+["1"+i for i in ugc]
+    return list
+n=int(input())
+ans=ggc(n)
+print(" ".join(ans))
+
+Sample Input :
+2
+
+Sample Output :
+00 01 11 10
