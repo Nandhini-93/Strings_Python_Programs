@@ -1,0 +1,11 @@
+binary = input()
+temp = int(binary, 2)
+ans = str(oct(temp))
+print(ans[2:])
+
+Sample Testcase :
+INPUT
+1100100
+
+OUTPUT
+144
