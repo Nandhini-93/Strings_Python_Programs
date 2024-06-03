@@ -1,0 +1,15 @@
+a=input()
+r=0
+arr=[]
+for i in a:
+    if i in '1234567890':
+        r+=int(i)
+    else:
+        print(i,end='')
+print(r)
+
+Sample Input :
+AC30BD40
+
+Sample Output :
+ACBD7
