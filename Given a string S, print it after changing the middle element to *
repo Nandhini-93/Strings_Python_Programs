@@ -1,0 +1,12 @@
+s=input()
+d=len(s)//2
+if len(s)%2==1:
+    print(s[0:d]+'*'+s[d+1:])
+else:
+    print(s[0:d-1]+'**'+s[d+1:])
+
+INPUT
+hello
+
+OUTPUT
+he*lo
