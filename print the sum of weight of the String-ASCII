@@ -1,0 +1,9 @@
+s = input()
+t = list(map(ord,s))
+print(sum(t))
+
+Sample Input :
+abc
+
+Sample Output :
+294
